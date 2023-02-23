@@ -1,0 +1,26 @@
+.test {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #1a253a;
+    margin-top: 60px;
+
+    background-image: url(/images/fake.png), linear-gradient(to bottom, #ADD8E6, #000080);
+    background-size: 50vh, cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.heading {
+    padding-right: 1000px;
+}
+
+.test .lead {
+    max-width: 300px;
+}
